@@ -1,7 +1,6 @@
 # Nyx
 
 A dark vim colorscheme
-
     
 ### Installation  
 
@@ -12,7 +11,6 @@ git clone git@github.com:ecssiah/nyx.git
 ```
 
 [`vim-plug`](https://github.com/junegunn/vim-plug)
-.vimrc:
 ```vim
 Plug 'ecssiah/nyx'
 ```
