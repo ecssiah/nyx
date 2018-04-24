@@ -21,7 +21,7 @@ let g:colors_name = "nyx"
 
 " Context Colors
 let s:black            = { "g": "#191f2c", "t": "233" }
-let s:bg               = { "g": "#393f4c", "t": "236" }
+let s:bg               = { "g": "#343a47", "t": "236" }
 let s:text             = { "g": "#c0c5ce", "t": "251" }
 let s:comment          = { "g": "#808080", "t": "244" }
 let s:error            = { "g": "#ff0000", "t": "007" }
