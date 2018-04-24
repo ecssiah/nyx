@@ -1,7 +1,11 @@
 # Nyx
 
 A dark vim colorscheme
+
+![GUI Screenshot](https://raw.githubusercontent.com/ecssiah/nyx/master/img/gui-colors.png)
     
+![Terminal Screenshot](https://raw.githubusercontent.com/ecssiah/nyx/master/img/terminal-colors.png)
+
 ### Installation  
 
 [`pathogen`](https://github.com/tpope/vim-pathogen)  
