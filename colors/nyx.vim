@@ -23,6 +23,7 @@ let g:colors_name = "nyx"
 let s:black     = {"g": "#191f2c", "t": "233"}
 let s:bg        = {"g": "#343a47", "t": "236"}
 let s:text      = {"g": "#c0c5ce", "t": "251"}
+let s:emphasis  = {"g": "#d0d0d0", "t": "253"}
 let s:comment   = {"g": "#808080", "t": "244"}
 let s:error     = {"g": "#ff0000", "t": "007"}
 let s:cursor    = {"g": "#00ffff", "t": "014"}
@@ -33,7 +34,7 @@ let s:selection = {"g": "#ff5d00", "t": "202"}
 let s:search    = {"g": "#d787ff", "t": "177"}
 
 let s:accent1   = {"g": "#9fd3e6", "t": "116"} " light blue
-let s:accent2   = {"g": "#f2e3c9", "t": "187"} " sandy yellow
+let s:accent2   = {"g": "#f2e3c9", "t": "189"} " sandy yellow
 let s:accent3   = {"g": "#c4e8bb", "t": "157"} " mint green
 let s:accent4   = {"g": "#ffd7ff", "t": "225"} " light pink
 
@@ -123,6 +124,12 @@ endif
 call s:h("htmlTag",      {"f": s:accent3})
 call s:h("htmlEndTag",   {"f": s:accent3})
 call s:h("htmlLink",     {"f": s:accent1, "g": "underline", "t": "underline"})
+call s:h("htmlItalic",   {"f": s:emphasis, "g": "italic"})
+
+" htmlItalicBold xxx links to htmlBoldItalic
+" htmlItalicUnderline xxx links to htmlUnderlineItalic
+" htmlItalicBoldUnderline xxx links to htmlBoldUnderlineItalic
+" htmlItalicUnderlineBold xxx links to htmlBoldUnderlineItalic
 
 " Highlights - CSS -----------
 call s:h("cssBraces",    {"f": s:inactive})
