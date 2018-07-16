@@ -33,10 +33,10 @@ let s:subtle    = {"g": "#585858", "t": "240"}
 let s:selection = {"g": "#ff5d00", "t": "202"}
 let s:search    = {"g": "#d787ff", "t": "207"}
 
-let s:accent1   = {"g": "#9fd3e6", "t": "116"} " light blue
-let s:accent2   = {"g": "#d7d7ff", "t": "189"} " sandy yellow
-let s:accent3   = {"g": "#c4e8bb", "t": "157"} " mint green
-let s:accent4   = {"g": "#ffd7ff", "t": "225"} " light pink
+let s:accent1   = {"g": "#9fd3e6", "t": "152"}
+let s:accent2   = {"g": "#d7d7ff", "t": "189"}
+let s:accent3   = {"g": "#c4e8bb", "t": "181"}
+let s:accent4   = {"g": "#ffd7ff", "t": "225"}
 
 " This function builds a call to the `highlight` function by checking for
 " options that were provided by a style dictionary
