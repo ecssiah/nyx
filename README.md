@@ -2,11 +2,7 @@
 
 A dark vim colorscheme
 
-GUI:
-![GUI Screenshot](https://raw.githubusercontent.com/ecssiah/nyx/master/img/gui-colors.png)
-    
-Terminal:
-![Terminal Screenshot](https://raw.githubusercontent.com/ecssiah/nyx/master/img/terminal-colors.png)
+![Terminal Screenshot](https://raw.githubusercontent.com/ecssiah/nyx/master/img/terminal-screen-shot.png)
 
 ### Installation  
 
