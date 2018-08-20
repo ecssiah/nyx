@@ -35,8 +35,8 @@ let s:search    = {"g": "#d787ff", "t": "207"}
 
 let s:accent1   = {"g": "#9fd3e6", "t": "152"}
 let s:accent2   = {"g": "#d7d7ff", "t": "189"}
-let s:accent3   = {"g": "#c4e8bb", "t": "181"}
-let s:accent4   = {"g": "#ffd7ff", "t": "225"}
+let s:accent3   = {"g": "#c4e8bb", "t": "182"}
+let s:accent4   = {"g": "#ffd7ff", "t": "159"}
 
 " This function builds a call to the `highlight` function by checking for
 " options that were provided by a style dictionary
@@ -55,6 +55,9 @@ call s:h("Normal",       {"f": s:text, "b": s:bg})
 call s:h("NonText",      {"f": s:subtle})
 call s:h("Comment",      {"f": s:comment, "g": "italic"})
 call s:h("Cursor",       {"f": s:black, "b": s:cursor})
+call s:h("LineNr",       {"f": s:text, "b": s:faint})
+call s:h("Cursorline",   {"f": s:text, "b": s:bg})
+call s:h("CursorlineNR", {"f": s:text, "t": "bold"})
 call s:h("Visual",       {"f": s:selection, "b": s:bg})
 call s:h("IncSearch",    {"f": s:search})
 call s:h("WildMenu",     {"f": s:search})
@@ -62,7 +65,6 @@ call s:h("Search",       {"f": s:search})
 call s:h("Error",        {"f": s:error, "b": s:bg})
 call s:h("ErrorMsg",     {"f": s:error, "b": s:bg})
 call s:h("WarningMsg",   {"f": s:error, "b": s:bg})
-call s:h("LineNr",       {"f": s:text, "b": s:faint})
 call s:h("Title",        {"f": s:accent4, "g": "bold", "t": "bold"})
 call s:h("StatusLine",   {"f": s:text, "b": s:black, "g": "bold", "t": "bold"})
 call s:h("StatusLineNC", {"f": s:inactive, "b": s:black})
